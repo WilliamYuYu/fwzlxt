@@ -155,5 +155,13 @@ public interface IUserMgeSvr extends IApplication {
     @PublishMethod
     String payOrder(int order_id, double payAmount);
 
+
+    /**
+     * 查单个房屋信息  .
+     *
+     * @param house_id 房屋Id.
+     */
+    @PublishMethod
+    House queryHouseById(int house_id);
 }
 

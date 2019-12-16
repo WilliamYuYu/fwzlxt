@@ -214,5 +214,15 @@ public class UserMgeSvr extends ApplicationBase implements IUserMgeSvr {
         return null;
     }
 
+    /**
+     * 查单个房屋信息  .
+     *
+     * @param house_id 房屋Id.
+     */
+    @Override
+    public House queryHouseById(int house_id) {
+        return null;
+    }
+
 }
 
